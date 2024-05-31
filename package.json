@@ -1,5 +1,5 @@
 {
-  "name": "tv-series",
+  "name": "series-tracker",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
