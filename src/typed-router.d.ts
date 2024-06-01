@@ -19,8 +19,13 @@ declare module 'vue-router/auto-routes' {
    */
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
-    '/calendar': RouteRecordInfo<'/calendar', '/calendar', Record<never, never>, Record<never, never>>,
-    '/following': RouteRecordInfo<'/following', '/following', Record<never, never>, Record<never, never>>,
-    '/next': RouteRecordInfo<'/next', '/next', Record<never, never>, Record<never, never>>,
+    '/auth/forgot': RouteRecordInfo<'/auth/forgot', '/auth/forgot', Record<never, never>, Record<never, never>>,
+    '/auth/login': RouteRecordInfo<'/auth/login', '/auth/login', Record<never, never>, Record<never, never>>,
+    '/auth/register': RouteRecordInfo<'/auth/register', '/auth/register', Record<never, never>, Record<never, never>>,
+    '/auth/reset': RouteRecordInfo<'/auth/reset', '/auth/reset', Record<never, never>, Record<never, never>>,
+    '/tabs': RouteRecordInfo<'/tabs', '/tabs', Record<never, never>, Record<never, never>>,
+    '/tabs/calendar': RouteRecordInfo<'/tabs/calendar', '/tabs/calendar', Record<never, never>, Record<never, never>>,
+    '/tabs/following': RouteRecordInfo<'/tabs/following', '/tabs/following', Record<never, never>, Record<never, never>>,
+    '/tabs/next': RouteRecordInfo<'/tabs/next', '/tabs/next', Record<never, never>, Record<never, never>>,
   }
 }

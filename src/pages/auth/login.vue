@@ -3,5 +3,5 @@
 </script>
 
 <template>
-  <div>Following</div>
+  Log In
 </template>
