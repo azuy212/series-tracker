@@ -1,4 +1,10 @@
 <script setup lang="ts">
+import { definePage } from 'vue-router/auto'
+
+definePage({
+  redirect: '/tabs/next',
+})
+
 const tab = ref<number>()
 </script>
 

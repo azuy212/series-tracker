@@ -5,7 +5,7 @@
 <template>
   <v-app>
     <v-main>
-      Default
+      Auth
       <router-view />
     </v-main>
   </v-app>
